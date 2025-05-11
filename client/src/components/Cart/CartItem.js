@@ -1,8 +1,11 @@
 import classes from './CartItem.module.css';
 
-const CartItem = (props) => {
-  const { title, quantity, total, price } = props.item;
-
+const CartItem = ({
+  title,
+  quantity,
+  total,
+  price
+}) => {
   return (
     <li className={classes.item}>
       <header>
