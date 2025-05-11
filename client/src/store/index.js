@@ -4,7 +4,7 @@ import uiSlice from "./ui-slice.js";
 
 const store = configureStore({
     reducer: {
-        ui: uiSlice
+        ui: uiSlice.reducer
     }
 });
 
